@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* grid */
+.box-1 {
+  background-color: Lavender;
+  color: MediumPurple;
+}
+.box-2 {
+  background-color: HoneyDew;
+  color: DarkSeaGreen;
+}
+.box-3 {
+  background-color: Pink;
+  color: PaleVioletRed;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* grid column & rows 
+grid column start  = column start form  n
+grid column end    = column end form  n
+grid column        = start / end
+grid row start     = row start form  n
+grid row end       = row end form  n
+grid row           = start / end
+*/
+/* .box-3 {
+  grid-column: 1/3;
+} */
+.box-2 {
+  grid-row: 1/3;
+}
